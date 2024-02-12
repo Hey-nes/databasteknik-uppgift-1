@@ -2,7 +2,7 @@ import mongoose, { connect } from "mongoose";
 import readline from "readline";
 
 async function run() {
-  await connect("mongodb://localhost:27017/sebastian-inlämning-1");
+  await connect("mongodb://localhost:27017/sebastian-uppgift-1");
 
   const { db } = mongoose.connection;
 

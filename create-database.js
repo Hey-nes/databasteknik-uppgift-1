@@ -1,6 +1,6 @@
 import mongoose, { connect } from "mongoose";
 
-await connect("mongodb://localhost:27017/sebastian-inlämning-1");
+await connect("mongodb://localhost:27017/sebastian-uppgift-1");
 const { db } = mongoose.connection;
 
 const movieSchema = mongoose.Schema({
